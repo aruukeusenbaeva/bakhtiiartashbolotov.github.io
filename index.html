@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles/style.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+</head>
+<body>
+    <header>
+    <nav>
+        <a href="#" class="logo">My Portfolio</a>
+        <a href="#" class="nav-toggle">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </a>
+        <ul id="menu">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#resume">Resume</a></li>
+            <li><a href="#works">Works</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="home">
+        <h1>Welcome to my portfolio</h1>
+        <a href="#works" class="cta-btn">View my work</a>
+      </section>
+      <section id="about">
+        <h2>About Me</h2>
+        <p>Hello, my name is Bakhtiyar, I am 17 years old. I grew up in Kyrgyzstan, Bishkek. After graduating from school, I became interested in IT and entered the AlaToo International University. Since then, I have been studying at the Faculty of IT in the direction of Informatics and Applied Mathematics.</p>
+      </section>
+      <section id="works">
+        <h2>My Works</h2>
+        <div class="work">
+          <img src="images/work-1.PNG" alt="Work 1" />
+          <p>First HTML Webpage</p>
+        </div>
+        <div class="work">
+          <img src="images/wok-2.PNG" alt="Work 2">
+          <p>First TABLE</p>
+        </div>
+        <div class="work">
+            <img src="images/work-3.PNG" alt="Work 2">
+            <p>First WEBPAGE</p>
+          </div>
+      </section>
+      <section id="gallery">
+        <h2>Gallery</h2>
+        <div class="gallery">
+          <img src="images/gallery1.png" alt="Gallery 1" class="item1">
+          <img src="images/gallery2.png" alt="Gallery 2" class="item2">
+          <img src="images/gallery3.png" alt="Gallery 3" class="item3">
+          <img src="images/gallery4.png" alt="Gallery 4" class="item4">
+        </div>
+      </section>
+    </main>
+    <footer>
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <ul>
+              <li>Phone number: <a href="tel:+996701250220"> +996 701 250 220</a></li>
+              <li>Email: <a href="mailto:bakhtiiar.tasholotov@alatoo.edu.kg">bakhtiiar.tasholotov@alatoo.edu.kg</a></li>
+            </ul>
+          </section>
+    </footer>
+  </body>
+  <script>
+    $('.nav-toggle').on('click', function(){
+      $('#menu').toggleClass('active');
+    });
+    </script>
+</html>
