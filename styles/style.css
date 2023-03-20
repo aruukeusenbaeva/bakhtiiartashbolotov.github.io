@@ -141,8 +141,8 @@ section h2{
 }
 #resume ul{
     border: 2px solid black;
-    padding: 1rem;
-    margin: 2rem;
+    padding: 0.5rem;
+    margin: 2rem 0;
 }
 #resume .skills{
     margin: 0;
@@ -193,6 +193,7 @@ section a {
     color: #333;
     text-decoration: none;
     font-weight: bold;
+    font-size: .9rem
     }
 section a:hover {
     text-decoration: underline;
